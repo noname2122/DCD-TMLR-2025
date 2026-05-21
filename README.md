@@ -27,7 +27,7 @@ DCD-TMLR-2025/
 ├── src/
 │   └── dcd/                       # installable Python package
 │       ├── __init__.py
-│       ├── core.py                # DCD pipeline: STL + PCMCI+
+│       ├── core.py                # DCD pipeline
 │       ├── baselines/
 │       │   └── cdnod_pcmci.py     # CD-NOD and PCMCI+ baselines on Arctic data
 │       └── utils/
@@ -54,6 +54,10 @@ DCD-TMLR-2025/
 │   └── lag_4/                     # ground-truth max lag = 4
 ├── replication/
 │   └── isolation_test.py          # Table A3 isolation-test replication script
+├── tetrad/                        # Tetrad session files for non-Python baselines
+│   ├── Other_approaches.tet       # BOSS-LiNGAM, CPC, CFCI sessions
+│   ├── Results_4var.tet           # saved results for 4-variable experiments
+│   └── README.md
 ├── results/                       # CSV outputs from experiments
 ├── figures/                       # generated plots
 ├── pyproject.toml
