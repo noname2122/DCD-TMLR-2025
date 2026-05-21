@@ -80,7 +80,7 @@ pip install -e .
 ```
 
 The heaviest dependencies are [`tigramite`](https://github.com/jakobrunge/tigramite),
-[`causalnex`](https://github.com/quantumblacklabs/causalnex), and
+[`causalnex`](https://github.com/mckinsey/causalnex), and
 [`causal-learn`](https://github.com/py-why/causal-learn). We recommend a fresh
 virtual environment.
 
